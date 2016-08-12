@@ -1,9 +1,12 @@
 # Random-Political-Speech-Generator
 Returns a randomly created political speech based off of past speeches.
 
-This program takes in a string and returns a randomly generated version of that text. It does this by using a markhov chain wherein each word is associated with an array of words that immediately follow it.
+The program can be tested here: https://repl.it/C61W/310
 
-For example, the sentence "Hello, I am a human" would create the following markov chain:
+
+This program takes in a string and returns a randomly generated version of that text. It does this by using a Markov chain wherein each word is associated with an array of words that immediately follow it.
+
+For example, the sentence "Hello, I am a human" would create the following Markov chain:
 
 Hello : ['I'],
 I : ['am'],
@@ -11,7 +14,7 @@ am : ['a'],
 a : ['human'],
 human : []
 
-After the markov chain is generated, the next step is to return a random string. To do this, the writeLine() function 
+After the Markov chain is generated, the next step is to return a random string. To do this, the writeLine() function 
 produces a random number that is used to determine the next word in the return string.
 
 I have split this program into separate functions to illustrate their use cases. Enjoy!
