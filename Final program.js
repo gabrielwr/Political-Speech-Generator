@@ -22,7 +22,6 @@ function writeLine (length, str) {
 }
 
 function getRandom (word, markov) {
-	debugger;
 	//var markov length;
 	var lengthOfArr = markov[word].length; 
 	var randomNum = Math.floor((Math.random() * lengthOfArr)); 
