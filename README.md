@@ -18,6 +18,6 @@ I have split this program into separate functions to illustrate their use cases.
 
 *NOTE*
 **
-  This program has been set up to return a randomly generated speech from Donald Trump. Please know that this does not mean I support Trump in any way shape or form.
+  This program has been set up to return a randomly generated speech from Donald Trump. Please know that I do not support Trump in any way, shape, or form.
 
 
