@@ -17,6 +17,7 @@ produces a random number that is used to determine the next word in the return s
 I have split this program into separate functions to illustrate their use cases. Enjoy!
 
 *NOTE*
+**
   This program has been set up to return a randomly generated speech from Donald Trump. Please know that this does not mean I support Trump in any way shape or form.
 
 
